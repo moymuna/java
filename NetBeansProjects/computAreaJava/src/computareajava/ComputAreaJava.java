@@ -8,6 +8,19 @@ public class ComputAreaJava {
 
     
     public static void main(String[] args) {
+
+         Scanner scanner = new Scanner(System.in);
+        System.out.println("enter radius");
+        float radius = scanner.nextFloat();
+        float areaOfCircle;
+        if (radius <= 0) {
+            System.out.println("incorrect Radius");
+        } else {
+//        areaOfCircle =(float)(Math.PI*Math.pow(radius, 2));
+            areaOfCircle = (float) (3.1416 * radius * radius);
+            System.out.println("area of circle is " + areaOfCircle);
+        }
+
         
         
         
