@@ -81,8 +81,15 @@ public class NestedIfElse {
 //            case "/":
 //                System.out.println(n1 / n2); 
 //}
-    
 
+
+//        Scanner input = new Scanner(System.in);
+//        System.out.println(("enter name"));
+//        String name = input.next();
+//        String firstChar = name.substring(0, 1).toUpperCase();
+//        String lastChar = name.substring(1).toLowerCase();
+//        String newName = firstChar + lastChar;
+//        System.out.println(newName);
 
 
 
