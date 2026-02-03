@@ -35,6 +35,7 @@ public class MethodMaking {
 //            }
 //        }
 //        System.out.println("max number is " + max);
+//     }
         
          public static void findAvarageNumber(int[] numbers) {
         float avg = 0;
@@ -50,6 +51,6 @@ public class MethodMaking {
         //    public static void checkFactorialNumber(int number){
 //    Scanner
 
-    }
+   
     
 }

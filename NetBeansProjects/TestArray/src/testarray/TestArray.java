@@ -36,7 +36,7 @@ public class TestArray {
 
 
         Scanner input = new Scanner(System.in);
-        System.out.println("how many number yout want compair");
+        System.out.println("how many number you want compair");
         int n = input.nextInt();
         int numbers[] = new int[n];
         System.out.println("begining of loop" + Arrays.toString(numbers));

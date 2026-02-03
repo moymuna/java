@@ -23,17 +23,17 @@ public class MinNumberFromArrayWithMathod {
         System.out.println("ending of loop" + Arrays.toString(numbers));
         
               
-//        findMinNumber(numbers);
+        findMinNumber(numbers);
     }
-//public static void findMinNumber (int[] numbers){
-//    int min=numbers[0];
-//    for(int item:numbers){
-//    if(item<=min){
-//    min=item;
-//    }
-//    }
-//    System.out.println("min number is "+min);
-//}
+public static void findMinNumber (int[] numbers){
+    int min=numbers[0];
+    for(int item:numbers){
+    if(item<=min){
+    min=item;
+    }
+    }
+    System.out.println("min number is "+min);
+}
 
     
    
