@@ -46,12 +46,12 @@ public class CurdEmployee {
 
         try {
             ps = getcon().prepareStatement(sql);
-            ps.setString(1, name);
-            ps.setDouble(2, salary);
-            ps.setString(3, department);
-            ps.executeUpdate();
-            ps.close();
-            getcon().close();
+        ps.setString(1, name);
+        ps.setDouble(2, salary);
+        ps.setString(3, department);
+        ps.executeUpdate();
+        ps.close();
+        getcon().close();
         } catch (SQLException ex) {
             Logger.getLogger(CurdEmployee.class.getName()).log(Level.SEVERE, null, ex);
         }
